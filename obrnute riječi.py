@@ -1,5 +1,3 @@
-# test primjer  obrnute_rijeci('danas je dobar dan') 
-  
 def obrnute_rijeci(recenica):
 
   lista_rijeci = recenica.split(' ')
