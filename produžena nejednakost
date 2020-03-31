@@ -1,0 +1,15 @@
+# testni primjer  nejednakost('56 23 1 12 32 51 11 132 2 12')
+
+def nejednakost(niz):
+
+  lista_brojeva = niz.split(' ')
+
+  for i in range(len(lista_brojeva)):
+    lista_brojeva[i] = int(lista_brojeva[i])
+
+  lista_brojeva.sort()
+
+  for i in range(len(lista_brojeva)):
+    lista_brojeva[i] = str(lista_brojeva[i])    
+
+  print(' < '.join(lista_brojeva))
