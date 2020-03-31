@@ -1,5 +1,3 @@
-# testni primjer  nejednakost('56 23 1 12 32 51 11 132 2 12')
-
 def nejednakost(niz):
 
   lista_brojeva = niz.split(' ')
