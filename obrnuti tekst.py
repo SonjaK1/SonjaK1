@@ -1,5 +1,3 @@
-# test primjer   obrnuti_tekst('Imam cijelu čokoladu. Poof. Čokolade nema.')
-
 def obrnuti_tekst(paragraf):
   recenice = paragraf.split('. ')
   recenice[-1] = recenice[-1].strip('.')
